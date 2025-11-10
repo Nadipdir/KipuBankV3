@@ -103,7 +103,6 @@ The tests include both unit tests (using a `MockERC20`) and fork tests (using a 
 |Total|70.24% (59/84)|70.51% (55/78)|54.55% (6/11)|68.75% (11/16)|
 
 **Design Decisions & Trade-offs**
-(As required by TP4)
 
 1. **USDC as Base Asset:**
     - **Decision:** All assets are converted to USDC.
@@ -116,7 +115,6 @@ The tests include both unit tests (using a `MockERC20`) and fork tests (using a 
     - Trade-off: This was a major simplification for the assignment. In a production environment, this is critically unsafe and exposes users to 100% slippage (front-running / sandwich attacks). A production version must calculate an acceptable `amountOutMin` based on an oracle price feed.
 
 ## Threat Analysis & Protocol Maturity
-(As required by TP4)
 
 This contract is **NOT production-ready.**
 
