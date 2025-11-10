@@ -1,0 +1,12 @@
+# Ignorar el archivo de entorno
+.env
+
+# Ignorar todas las librerías (se instalan con `forge install`)
+lib/
+
+# Ignorar los archivos de compilación de Foundry
+cache/
+out/
+
+# Ignorar el archivo de broadcast (contiene info de transacciones)
+broadcast/
