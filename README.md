@@ -96,10 +96,11 @@ The test suite achieves **78.67%** line coverage on the main `src/KipuBankV3.sol
 The tests include both unit tests (using a `MockERC20`) and fork tests (using a Sepolia fork to test live swaps with `depositEth`).
 
 **Coverage Report Output:**
-File,% Lines,% Statements,% Branches,% Funcs
-script/DeployKipuBankV3.s.sol,0.00% (0/9),0.00% (0/10),0.00% (0/1),0.00% (0/1)
-src/KipuBankV3.sol,78.67% (59/75),80.88% (55/68),60.00% (6/10),73.33% (11/15)
-Total,70.24% (59/84),70.51% (55/78),54.55% (6/11),68.75% (11/16)
+|File|% Lines|% Statements|% Branches|% Funcs|
+| :--- | :--- | :--- | :--- | :--- |
+|script/DeployKipuBankV3.s.sol|0.00% (0/9)|0.00% (0/10)|0.00% (0/1)|0.00% (0/1)|
+|src/KipuBankV3.sol|78.67% (59/75)|80.88% (55/68)|60.00% (6/10)|73.33% (11/15)|
+|Total|70.24% (59/84)|70.51% (55/78)|54.55% (6/11)|68.75% (11/16)|
 
 **Design Decisions & Trade-offs**
 (As required by TP4)
